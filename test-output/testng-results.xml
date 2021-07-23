@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42996" started-at="2021-07-23T15:10:31 IST" finished-at="2021-07-23T15:11:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42996" started-at="2021-07-23T15:10:31 IST" finished-at="2021-07-23T15:11:14 IST">
+      <class name="com.testLayer.TC_001_LoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="16870" started-at="2021-07-23T15:10:31 IST" finished-at="2021-07-23T15:10:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitleOfpage()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="validateTitleOfpage" duration-ms="449" started-at="2021-07-23T15:10:48 IST" finished-at="2021-07-23T15:10:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleOfpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="1078" started-at="2021-07-23T15:10:49 IST" finished-at="2021-07-23T15:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="5201" started-at="2021-07-23T15:10:50 IST" finished-at="2021-07-23T15:10:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLogo()[pri:1, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="validateLogo" duration-ms="1109" started-at="2021-07-23T15:10:55 IST" finished-at="2021-07-23T15:10:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="999" started-at="2021-07-23T15:10:56 IST" finished-at="2021-07-23T15:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="6024" started-at="2021-07-23T15:10:57 IST" finished-at="2021-07-23T15:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToApplication()[pri:2, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="loginToApplication" duration-ms="2390" started-at="2021-07-23T15:11:03 IST" finished-at="2021-07-23T15:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="899" started-at="2021-07-23T15:11:05 IST" finished-at="2021-07-23T15:11:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="5345" started-at="2021-07-23T15:11:06 IST" finished-at="2021-07-23T15:11:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitleOfDashBoardPage()[pri:3, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="validateTitleOfDashBoardPage" duration-ms="21" started-at="2021-07-23T15:11:12 IST" finished-at="2021-07-23T15:11:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleOfDashBoardPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="1900" started-at="2021-07-23T15:11:12 IST" finished-at="2021-07-23T15:11:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testLayer.TC_001_LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
