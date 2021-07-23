@@ -1,61 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42996" started-at="2021-07-23T15:10:31 IST" finished-at="2021-07-23T15:11:14 IST">
+  <suite name="Default suite" duration-ms="64043" started-at="2021-07-23T16:24:22 IST" finished-at="2021-07-23T16:25:26 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42996" started-at="2021-07-23T15:10:31 IST" finished-at="2021-07-23T15:11:14 IST">
-      <class name="com.testLayer.TC_001_LoginPage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="16870" started-at="2021-07-23T15:10:31 IST" finished-at="2021-07-23T15:10:48 IST">
+    <test name="Default test" duration-ms="64043" started-at="2021-07-23T16:24:22 IST" finished-at="2021-07-23T16:25:26 IST">
+      <class name="com.testLayer.TC_002_DashBoardPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="14925" started-at="2021-07-23T16:24:22 IST" finished-at="2021-07-23T16:24:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateTitleOfpage()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="validateTitleOfpage" duration-ms="449" started-at="2021-07-23T15:10:48 IST" finished-at="2021-07-23T15:10:49 IST">
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="validateTitle" duration-ms="1201" started-at="2021-07-23T16:24:38 IST" finished-at="2021-07-23T16:24:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitleOfpage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="1078" started-at="2021-07-23T15:10:49 IST" finished-at="2021-07-23T15:10:50 IST">
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="1770" started-at="2021-07-23T16:24:39 IST" finished-at="2021-07-23T16:24:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="5201" started-at="2021-07-23T15:10:50 IST" finished-at="2021-07-23T15:10:55 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="7599" started-at="2021-07-23T16:24:41 IST" finished-at="2021-07-23T16:24:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLogo()[pri:1, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="validateLogo" duration-ms="1109" started-at="2021-07-23T15:10:55 IST" finished-at="2021-07-23T15:10:56 IST">
+        <test-method status="PASS" signature="clickOnAllItems()[pri:2, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="clickOnAllItems" duration-ms="847" started-at="2021-07-23T16:24:49 IST" finished-at="2021-07-23T16:24:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="999" started-at="2021-07-23T15:10:56 IST" finished-at="2021-07-23T15:10:57 IST">
+        </test-method> <!-- clickOnAllItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="952" started-at="2021-07-23T16:24:50 IST" finished-at="2021-07-23T16:24:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="6024" started-at="2021-07-23T15:10:57 IST" finished-at="2021-07-23T15:11:03 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="5725" started-at="2021-07-23T16:24:50 IST" finished-at="2021-07-23T16:24:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginToApplication()[pri:2, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="loginToApplication" duration-ms="2390" started-at="2021-07-23T15:11:03 IST" finished-at="2021-07-23T15:11:05 IST">
+        <test-method status="PASS" signature="CountofTotalItem()[pri:3, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="CountofTotalItem" duration-ms="46" started-at="2021-07-23T16:24:56 IST" finished-at="2021-07-23T16:24:56 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="899" started-at="2021-07-23T15:11:05 IST" finished-at="2021-07-23T15:11:06 IST">
+        </test-method> <!-- CountofTotalItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="906" started-at="2021-07-23T16:24:56 IST" finished-at="2021-07-23T16:24:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="setUp" is-config="true" duration-ms="5345" started-at="2021-07-23T15:11:06 IST" finished-at="2021-07-23T15:11:12 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="5185" started-at="2021-07-23T16:24:57 IST" finished-at="2021-07-23T16:25:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateTitleOfDashBoardPage()[pri:3, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="validateTitleOfDashBoardPage" duration-ms="21" started-at="2021-07-23T15:11:12 IST" finished-at="2021-07-23T15:11:12 IST">
+        <test-method status="PASS" signature="printDescriptionOfAllItems()[pri:4, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="printDescriptionOfAllItems" duration-ms="231" started-at="2021-07-23T16:25:02 IST" finished-at="2021-07-23T16:25:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitleOfDashBoardPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_001_LoginPage@769f71a9]" name="tearDown" is-config="true" duration-ms="1900" started-at="2021-07-23T15:11:12 IST" finished-at="2021-07-23T15:11:14 IST">
+        </test-method> <!-- printDescriptionOfAllItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="943" started-at="2021-07-23T16:25:03 IST" finished-at="2021-07-23T16:25:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.testLayer.TC_001_LoginPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="5573" started-at="2021-07-23T16:25:04 IST" finished-at="2021-07-23T16:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkPresenceOfRobot()[pri:5, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="checkPresenceOfRobot" duration-ms="622" started-at="2021-07-23T16:25:09 IST" finished-at="2021-07-23T16:25:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPresenceOfRobot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="863" started-at="2021-07-23T16:25:10 IST" finished-at="2021-07-23T16:25:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="6883" started-at="2021-07-23T16:25:11 IST" finished-at="2021-07-23T16:25:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sortData()[pri:6, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="sortData" duration-ms="650" started-at="2021-07-23T16:25:18 IST" finished-at="2021-07-23T16:25:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="934" started-at="2021-07-23T16:25:18 IST" finished-at="2021-07-23T16:25:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="setUp" is-config="true" duration-ms="5665" started-at="2021-07-23T16:25:19 IST" finished-at="2021-07-23T16:25:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnLogOut()[pri:7, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="clickOnLogOut" duration-ms="368" started-at="2021-07-23T16:25:25 IST" finished-at="2021-07-23T16:25:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testLayer.TC_002_DashBoardPage@769f71a9]" name="tearDown" is-config="true" duration-ms="935" started-at="2021-07-23T16:25:25 IST" finished-at="2021-07-23T16:25:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testLayer.TC_002_DashBoardPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

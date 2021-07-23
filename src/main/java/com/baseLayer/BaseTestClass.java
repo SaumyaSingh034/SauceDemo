@@ -63,8 +63,8 @@ public class BaseTestClass {
 			}
 			
 			driver.manage().window().maximize();
-			driver.manage().timeouts().pageLoadTimeout(UtilityFile.PAGE_LOAD_TIME, TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(UtilityFile.IMPLICIT_WAIT, TimeUnit.SECONDS);
+			driver.manage().timeouts().pageLoadTimeout(UtilityFile.PAGE_LOAD_TIME, TimeUnit.MINUTES);
+			driver.manage().timeouts().implicitlyWait(UtilityFile.IMPLICIT_WAIT, TimeUnit.MINUTES);
 			driver.get(prop.getProperty("url"));
 	}
 
