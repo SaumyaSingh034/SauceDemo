@@ -11,13 +11,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.utilityLayer.UtilityFile;
+import com.utilityLayer.WebEventListener;
 
 public class BaseTestClass {
 	
 	public static WebDriver driver;
 	public static Properties prop;
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener eventListener;
 	
 	public BaseTestClass()
 	{
@@ -38,7 +42,7 @@ public class BaseTestClass {
 		
 			if(browserName.equalsIgnoreCase("chrome"))
 			{
-				System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\FrameworkPractice\\EaseMyTrip_E2E\\drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\FrameworkPractice\\SauceDemo_POM\\drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
 			} else if (browserName.equalsIgnoreCase("ie")) {
 
@@ -62,7 +66,14 @@ public class BaseTestClass {
 				System.out.println("Please Check Your Browser. You have enter wrong browser......");
 			}
 			
+			e_driver = new EventFiringWebDriver(driver);
+			eventListener = new WebEventListener();
+			e_driver.register(eventListener);
+			driver = e_driver;
+			
+			
 			driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().pageLoadTimeout(UtilityFile.PAGE_LOAD_TIME, TimeUnit.MINUTES);
 			driver.manage().timeouts().implicitlyWait(UtilityFile.IMPLICIT_WAIT, TimeUnit.MINUTES);
 			driver.get(prop.getProperty("url"));

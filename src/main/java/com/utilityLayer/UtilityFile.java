@@ -15,4 +15,11 @@ public class UtilityFile extends BaseTestClass{
 		return driver.getTitle();
 	}
 
+	public static void takeScreenshotAtEndOfTest() {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+
 }
